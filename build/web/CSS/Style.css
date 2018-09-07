@@ -1,0 +1,86 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 16, 2018, 7:07:53 PM
+    Author     : Vigneet Sompura
+*/
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family:Roboto;
+    min-width: 670px; 
+    
+}
+
+a{
+  text-decoration:none;
+}
+
+body::-webkit-scrollbar{
+      width: 7px;
+      height:7px;
+    background-color: #fff;
+}
+
+body::-webkit-scrollbar-thumb{
+  background-color: #0ae;
+  
+  background-image: -webkit-gradient(linear, 0 0, 0 100%,
+                     color-stop(.5, rgba(255, 255, 255, .2)),
+             color-stop(.5, transparent), to(transparent));
+}
+
+#RegistrationSurface{
+    position:absolute;
+    top:50%;
+    margin-top:-300px;
+    left:50%;
+    margin-left:-250px;
+    height:600px;
+    width:500px;
+    background-color:#FFF;
+    border-radius:3px;
+    box-shadow: 8px 8px 44px -10px rgba(107,107,107,1);
+}
+
+#nav{
+        position: fixed;
+        left: 0px;
+        height: 100%;
+        background-color:#444444;
+        width: 300px;
+        box-shadow: 8px 8px 44px -10px rgba(107,107,107,1);
+        z-index: 10;
+}
+#userblock{
+        width: 100%;
+        height: 220px;
+        border-bottom: 1px solid #888888;
+        position: relative;
+}
+#dropdownMenu2{
+        background-color: #444444;
+        border: 0px;	
+        width: 260px !important;
+}
+
+#v-pills-tab a{
+        height: 50px;
+        background-color: #444444;
+        border: 0px;
+        border-bottom: 1px solid #555555;
+        line-height: 50px;
+        vertical-align: middle;
+        width: 100% !important;
+        border-radius: 0px;
+}
+
+.btn:active:focus {
+  outline: 0;
+}
